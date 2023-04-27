@@ -4,8 +4,13 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmandaAbarte/day-night-toggle"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build-examples": "react-scripts build",
@@ -32,5 +37,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4"
   }
 }
