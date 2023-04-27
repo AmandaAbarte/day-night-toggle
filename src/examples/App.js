@@ -7,11 +7,15 @@ export default function App() {
     setDarkmdode(!darkmode);
   }
   return (
-    <Toggle
-      darkmode={darkmode}
-      toggleFunction={toggleDarkmode}
-      light="white"
-      dark="black"
-    />
+    <div
+      style={{ backgroundColor: darkmode ? "black" : "white", height: "100vh" }}
+    >
+      <Toggle
+        darkmode={darkmode}
+        toggleFunction={toggleDarkmode}
+        light="white"
+        dark="black"
+      />
+    </div>
   );
 }

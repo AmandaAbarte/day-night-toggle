@@ -1,0 +1,14 @@
+.toggle-container {
+  width: fit-content;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+  box-sizing: border-box;
+  background-size: cover;
+  position: relative;
+  height:100px;
+  overflow: hidden;
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+}
