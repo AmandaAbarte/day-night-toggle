@@ -1,8 +1,8 @@
 # Day Night Toggle Library
-https://www.npmjs.com/package/@amandaabarte/react-modal-lib
+https://www.npmjs.com/package/day-night-toggle-library
 
 ## Installation 
-Run the following command:`npm i @amandaabarte/react-modal-lib`
+Run the following command:`npm i day-night-toggle-library`
 
 ## Examples
 You can find an example of usage in "/src/examples"
