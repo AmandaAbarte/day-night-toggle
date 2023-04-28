@@ -4,7 +4,9 @@ import Outer from "./outer";
 import sky from "./sky.svg";
 
 export default function Toggle({ darkmode, toggleFunction, light, dark }) {
-  const color = darkmode ? dark : light;
+  const darkcolor = dark ? dark : "black";
+  const lightcolor = light ? light : "white";
+  const color = darkmode ? darkcolor : lightcolor;
   const position = darkmode ? "0" : "100%";
   return (
     <div

@@ -15,8 +15,6 @@ export default function App() {
       <Toggle
         darkmode={darkmode}
         toggleFunction={toggleDarkmode}
-        light="white"
-        dark="black"
       />
     </div>
   );
