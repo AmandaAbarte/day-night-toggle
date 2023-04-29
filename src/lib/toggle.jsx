@@ -1,6 +1,5 @@
 import React from "react";
 import "./toggle.css";
-import Outer from "./outer";
 import sky from "./sky.svg";
 
 export default function Toggle({ darkmode, toggleFunction, light, dark }) {
@@ -16,8 +15,6 @@ export default function Toggle({ darkmode, toggleFunction, light, dark }) {
         backgroundImage: "url(" + sky + ")",
         backgroundPositionX: position,
       }}
-    >
-      <Outer color={color} />
-    </div>
+    ></div>
   );
 }
